@@ -1,0 +1,145 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    background-image: url("red-navy-blue-copyspace-background-260nw-390976255.jpg");
+    background-size: cover;
+    background-position:center;
+  }
+  
+header{
+    background-color: rgb(228, 100, 117);
+    display: flex;
+   
+    justify-content: space-between;
+    position: -webkit-sticky;
+    position: sticky;
+    padding: 20px 35px;
+
+
+}
+
+header h1{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    padding: 50 50 20 10;
+    color: mintcream;
+    font-weight:bold;
+    font-size: 45px;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+header nav ul{
+    display: flex;
+    justify-content:space-between;
+   align-items: flex-end;
+    width: 100%;
+    list-style: none;
+    padding: 20px;
+    align-items: center;
+    list-style: none;
+
+}
+
+header ul li a {
+   margin: 15px;;
+   font-size: 30px;
+   color: darkred;
+   font-weight:bold;
+   text-decoration: none;
+   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+header nav{
+    margin: 7px 0;
+}
+
+li {
+    list-style-type: none;
+  }
+
+
+.bio {
+    display: flex;    
+    flex-wrap: wrap;
+    justify-content:space-around;
+   
+}
+
+.photo{
+
+    padding: 30px;
+    width: 30%;
+    margin-top: 4%;
+
+}
+
+
+img {
+   border: 3px solid navy;
+  width: 300px;
+  box-shadow: 0 0 10px rgba(2, 2, 53, 0.527);
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 9%;
+  
+}
+
+
+.about-me-title{
+    margin-top: 15%;
+}
+
+
+.about-me-title h2{
+    
+    font-size: 45px;
+    color: navy;
+
+}
+
+.about-me{
+    
+    width:40%;
+    text-align: center;
+    margin-right: 10%;
+    padding: 30 20 10 15;
+    color:tomato;
+    font-size: 30px;
+    line-height: 1.2;
+    text-shadow: 0 0 10 px rgba(252, 237, 237, 0.5);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h3{
+    
+    font-style: italic;
+    padding: 20px;
+    margin-top: 5%;
+    color: navy;
+    font-size: 48px;
+    border-bottom: 3px solid tomato;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 5% auto 35px auto;
+    width: 40%;
+
+}
+
+.achievements {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project-1{
+    background-color: thistle;
+
+}
+
+
