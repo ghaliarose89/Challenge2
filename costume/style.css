@@ -1,35 +1,41 @@
 
 * {
-    margin: 0;
+    margin: 2px;
     padding: 0;
     box-sizing: border-box;
+    
   }
   body{
-    background-image: url("red-navy-blue-copyspace-background-260nw-390976255.jpg");
+    margin: 0;
+    padding: 0;
+    background-image: url("back-ground.jpg");
     background-size: cover;
     background-position:center;
+    font-family: Helvetica, Arial, sans-serif;
   }
   
 header{
-    background-color: rgb(228, 100, 117);
+    background-color: rgb(109, 80, 84);
+    margin: 0;
     display: flex;
-   
     justify-content: space-between;
     position: -webkit-sticky;
-    position: sticky;
-    padding: 20px 35px;
-
-
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 9999;
+   
 }
 
 header h1{
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
-    padding: 50 50 20 10;
-    color: mintcream;
-    font-weight:bold;
+    padding: 20;
+    color:rgb(194, 150, 89); 
+    text-shadow: 3px 3px 4px red; 
+    font-weight:bolder;
     font-size: 45px;
-    margin-top: 15px;
-    margin-left: 20px;
+    margin-top: 10px;
+    margin-left: 20px;     
+    
 }
 
 header nav ul{
@@ -38,19 +44,19 @@ header nav ul{
    align-items: flex-end;
     width: 100%;
     list-style: none;
-    padding: 20px;
-    align-items: center;
+    padding: 15px;
     list-style: none;
-
 }
+
 
 header ul li a {
    margin: 15px;;
-   font-size: 30px;
-   color: darkred;
+   padding: 10px 15px;
    font-weight:bold;
+    font-size: 1.55vw;
+   font-family: Arial, Helvetica, sans-serif;
+   color:rgb(194, 150, 89);  
    text-decoration: none;
-   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 header nav{
     margin: 7px 0;
@@ -72,74 +78,264 @@ li {
 
     padding: 30px;
     width: 30%;
-    margin-top: 4%;
+    margin-top: 3%;
 
 }
 
 
 img {
-   border: 3px solid navy;
+  border: 3px solid rgb(194, 150, 89);
   width: 300px;
-  box-shadow: 0 0 10px rgba(2, 2, 53, 0.527);
   border-radius: 50%;
   display: block;
-  margin-left: auto;
+  margin-left: 7%;
   margin-right: auto;
-  margin-top: 9%;
+  margin-top: 20%;
+  opacity: 0.8;
+  box-shadow: 0 4px 8px 0 rgba(250, 248, 248, 0.2);
+
   
 }
 
 
 .about-me-title{
-    margin-top: 15%;
+    margin-top: 20%;
 }
 
 
 .about-me-title h2{
     
-    font-size: 45px;
-    color: navy;
+    font-size: 35px;
+    color: rgb(194, 150, 89);
+     
+    text-decoration: underline;
+    margin-bottom: 15px;
+  
 
 }
 
 .about-me{
     
-    width:40%;
-    text-align: center;
-    margin-right: 10%;
-    padding: 30 20 10 15;
-    color:tomato;
-    font-size: 30px;
+    width:50%;
+    text-align: justify;
+    color:rgb(228, 238, 135);
+    font-size: 20px;
     line-height: 1.2;
-    text-shadow: 0 0 10 px rgba(252, 237, 237, 0.5);
+    text-shadow: 0 0 10 px rgba(14, 12, 12, 0.5);
     display: block;
     margin-left: auto;
     margin-right: auto;
-}
-
-h3{
     
-    font-style: italic;
-    padding: 20px;
-    margin-top: 5%;
-    color: navy;
-    font-size: 48px;
-    border-bottom: 3px solid tomato;
-    padding-bottom: 20px;
-    text-align: center;
-    margin: 5% auto 35px auto;
-    width: 40%;
-
 }
+
 
 .achievements {
     display: flex;
     flex-wrap: wrap;
+    justify-content:flex-start;
 }
 
-.project-1{
-    background-color: thistle;
+.achievements-title {
+    
+    font-style: italic;
+    color: rgb(194, 150, 89);
+  
+    font-size: 40px;
+    text-align: left;
+    margin: 10px;
+    width: 30%;
+    margin-top: 7%;
+
+}
+.achievements-title h3{
+    margin-left: 30px;
+    margin-top: 9%;
+    margin-left: 25px;
+    border-bottom: 2px solid rgb(194, 150, 89);
+
+}
+
+.proj-1{
+    
+    width:60%;
+    height: 300px;
+    border-radius: 14px;
+    border: 4px solid rgb(194, 150, 89);
+     background-image: url("Run-buddy.jpg");
+     background-size: cover;
+     background-position:top;
+     padding: 5px auto 25px auto;
+     margin: 20px;
+     margin-top: 2%;
+     margin-left: 30px;
+     display: flex;
+     flex-direction: column;
 
 }
 
 
+ span{
+    margin-top: auto;
+    width: 30%;
+    height: 40%;
+    background-color: #b9b987;
+    color: #393b4f;
+    padding: 10px 5px;
+    text-align: center;
+    border: 2px solid rgb(43, 145, 170);
+    border-radius: 15px;
+  }
+  .proj-text{
+      margin-top: 15%;
+
+  }
+  
+  .projs{
+    
+    width:30%;
+    height: 300px;
+    border-radius: 14px;
+    border: 4px solid  rgb(194, 150, 89);
+    background-color: #393b4f;
+    font-size: 22px;
+    font-weight: bold;
+     background-image: url("");
+     background-size: cover;
+     background-position: center;
+     padding: 5px auto 35px auto;
+     margin: 20px;
+     margin-top: 2%;
+     display: flex;
+     flex-direction: column;
+
+}
+hr {
+    display: block;
+    margin-top: 3%;
+    margin-left: 10%;
+    margin-bottom: 40px;
+    border-style: inset;
+    border-width: 1px;
+    width:80%
+  }
+
+
+footer {
+    
+    margin: 0;
+    display: flex;
+    justify-content:space-between;
+    padding: 20px;
+    
+    
+}
+
+footer h4 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    color:rgb(194, 150, 89) ;
+    
+    margin-top: 20px;
+    margin-left: 70px;
+    padding: 0;
+    text-shadow: 1px 1px 1px red; 
+    
+}
+
+.footer-title{
+    width:30%;
+}
+
+
+.contact-me
+{
+    width: 69%;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-1 {
+    width: 500px;
+
+    background-color:rgb(194, 150, 89);
+    
+    font-size: 25px;
+    margin-top: auto;
+}
+.contact-sizing{
+    margin-left: 50px;
+}
+
+
+
+@media screen and (max-width: 980px) {
+
+    header {
+        padding-bottom: 0;
+        justify-content: center;
+        position: relative;
+        background-color: lightcoral;
+      }
+
+      header h1 {
+        width: 100%;
+        text-align: center;
+      }
+
+      header nav ul {
+        margin-top: 20px;
+        width: 100%;
+        justify-content: center;
+      }
+
+      header nav ul li a {
+        font-size: 20px;
+      }
+
+      footer h2, footer div {
+        text-align: center;
+        width: 100%;
+      }
+      .hero-cta, .hero-form {
+        width: 100%;
+      }
+      
+      .hero-cta {
+        text-align: center;
+      } }
+      @media screen and (max-width: 768px) {
+
+        section {
+          padding: 30px 15px;
+        }
+      
+        
+      @media screen and (max-width: 575px) {
+
+        .hero-form button {
+          width: 100%;
+        }
+      
+        .section-title {
+          width: 95%;
+        }
+      
+        .intro p {
+          width: 100%;
+        }
+      
+        .trainer {
+          flex: 0 100%;
+        }
+      
+        .contact-info {
+          text-align: center;
+        }
+      
+        .contact-info > * {
+          flex: 0 100%;
+        }
+        .contact-form {
+          order: 3;
+        }
+      }
