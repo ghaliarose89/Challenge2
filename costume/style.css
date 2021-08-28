@@ -83,7 +83,7 @@ li {
 }
 
 
-img {
+.photo img {
   border: 3px solid rgb(194, 150, 89);
   width: 300px;
   border-radius: 50%;
@@ -256,12 +256,72 @@ footer h4 {
 
 .contact-1 {
     width: 500px;
-
     background-color:rgb(194, 150, 89);
-    
     font-size: 25px;
     margin-top: auto;
 }
+
+
 .contact-sizing{
     margin-left: 50px;
 }
+
+
+
+@media screen and (max-width: 980px) {
+
+    header {
+      
+        justify-content: center;
+        margin: 0;
+        padding: 0; 
+        
+    }
+
+    header h1 {
+        position: absolute;
+        text-align: center;
+        margin-top: 3px;
+        font-size: 20px;
+        padding: 0;
+        width: 100%;
+      }
+
+    header nav ul {
+        margin-top: 18px;
+        margin-left: 30px;
+        padding: 0;
+        width: 100%;
+ 
+    }
+
+    header nav ul li a {
+        font-size: 15px;
+        padding: 0;
+        margin-left: 0;
+    }
+
+    
+
+    .photo img {
+      
+       margin-bottom: 0;
+        width: 200px;
+        margin-left: auto;
+        padding: 0;
+       
+
+    }
+    .about-me {
+        font-size: 15px;
+        text-align: center;
+       margin-top: 10px;
+    }
+
+    .projs{
+
+        width: 25%;
+        margin-left: 5%;
+    }
+    
+    
