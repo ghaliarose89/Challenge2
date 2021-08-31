@@ -34,7 +34,8 @@ header h1 a{
     font-weight:bolder;
     font-size: 45px;
     margin-top: 10px;
-    margin-left: 20px;   
+    margin-left: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
       
     
 }
@@ -342,13 +343,14 @@ footer h4 {
         
     }
 
-    header h1 {
+    header h1 a {
         position: absolute;
-        text-align: center;
-        margin-top: 3px;
+        margin-left: 15%;
+        margin-top: 1px;
         font-size: 20px;
         padding: 0;
-        width: 100%;
+        width: 50%;
+        margin-bottom: 30px;
        
       }
 
@@ -382,21 +384,45 @@ footer h4 {
     .about-me {
         font-size: 15px;
         text-align: center;
-       margin-top: 10px;
+        margin: 0;
     }
-
+    .about-me-title h2{
+        font-size: 25px;
+    }
+    .achievements-title h3 {
+        font-size: 20px;
+        
+    }
     .projs{
 
         width: 25%;
         margin-left: 5%;
+        height: 200px;
     }
-    
+    .calculater{
+        height: 300px;
+
+    }
+    .achievements a{
+        font-size: 10px;
+    }
+     .contact-me{
+         margin-left: 30%;
+
+    }
+    .footer-title h4{
+        font-size: 30px;
+    }
 
  @media screen and (max-width: 768px) {
+
+    header h1 a{
+        margin-bottom: 3%;
+    }
     
     .photo img {
 
-        width: 150px;
+        width: 200px;
     }
     .bio-p {
         margin-left: 0px;
@@ -405,13 +431,27 @@ footer h4 {
         margin-left: 0cm;
     }
 
+    .about-me {
+        margin: 0;
+        margin-left: 10px;
+    }
+
+
     .about-me-title h2{
         font-size: 20px;
         margin-left: 0cm;
     }
     .achievements-title h3 {
-        font-size: 20px;
+        font-size: 15px;
+        margin-left: 30%;
 
+    }
+    .proj-1{
+
+        margin-left: 20%;
+    }
+    .projs{
+        margin-left: 40%;
     }
 
     .footer-title h4{
@@ -439,12 +479,35 @@ footer h4 {
  }
 
  @media screen and (max-width: 575px) {
+
+    .photo{
+        width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .about-me {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+
+    }
+    .about-me h2{
+        margin-bottom: 0px;
+        margin-top: 10px;
+    }
+    
     .projs{ 
 
         margin-left: auto;
         margin-right: auto;
     }
+    .proj-1{
+        margin-left: 10%;
+
+    }
+
     .footer-title h4 {
+        margin-top: 0px;
         font-size: 15;
         margin-left: 0;
     }
