@@ -27,7 +27,7 @@ header{
    
 }
 
-header h1{
+header h1 a{
     padding: 20;
     color:rgb(194, 150, 89); 
     text-shadow: 3px 3px 4px red; 
@@ -98,6 +98,7 @@ li {
     padding: 30px;
     width: 30%;
     margin-top: 3%;
+    margin-left: 100px;
 
 }
 
@@ -141,8 +142,7 @@ li {
     line-height: 1.2;
     text-shadow: 0 0 10 px rgba(14, 12, 12, 0.5);
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin-right: 200px;
     
 }
 
@@ -168,7 +168,7 @@ li {
     margin-left: 30px;
     margin-top: 9%;
     margin-left: 25px;
-    border-bottom: 2px solid rgb(194, 150, 89);
+    text-decoration: underline;
 
 }
 
@@ -275,11 +275,10 @@ hr {
     border-width: 1px;
     width:80%
   }
+  
   footer {
     
     margin-left: auto;
-    display: flex;
-    flex-direction: column;
     padding: 0;
     
     
@@ -296,12 +295,7 @@ footer h4 {
     
 }
 
-.footer-title{
-    width:30%;
-    margin-bottom: 15px;
-   
-    margin-top: auto;
-}
+
 
 
 .contact-me
@@ -314,6 +308,7 @@ footer h4 {
     display: flex;
     flex-direction: column;
     justify-items: center;
+    margin-left: 700px;
    
 }
 
