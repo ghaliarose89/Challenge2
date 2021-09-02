@@ -59,7 +59,7 @@ header ul li a {
    margin: 15px;;
    padding: 10px 15px;
    font-weight:bold;
-    font-size: 1.55vw;
+    font-size: 25px;
    font-family: Arial, Helvetica, sans-serif;
    color:var(--main-color);  
    text-decoration: none;
@@ -237,6 +237,7 @@ li {
     background-position: center;
     opacity:0.6;
      margin: 20px;
+     margin-left: 30px;
      margin-top: 2%;
      display: flex;
     
@@ -322,7 +323,6 @@ footer h4 {
       }
 
      
-
     header nav ul {
         margin-top: 18px;
         margin-left: 30px;
