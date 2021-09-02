@@ -1,12 +1,16 @@
 # Ghalia Sami
 
 ## Description
-Ghalia's portfolio: exploring this portfolio allows to navigate the following:
+#### Ghalia's portfolio: 
+exploring this portfolio allows to navigate the following:
 *1-* Ghalia's photo.
 *2-*-Ghalia's bio.
 *3-* Ghalia's resume.
 *4-*Ghalia's works she's done.
 *5-*Ghalia's contact information.
+
+https://ghaliarose89.github.io/Ghalia-portfolio/
+
 
 ### usage:
 When hovering on the projects, images will brighning and become more bright
@@ -14,12 +18,12 @@ clicking on the Project name allows taking to the project page
 Reaching Ghalid out through eathier the header that takes to *Contact me* OR in the footer all Ghalia's information would be avilable.
 
 
-#### Instulation:
+### Instulation:
 Very samiple to navigate all  contents in the webage.
 any linkes that takes to a diffrent page are working.
 Clicking on Linked-in or Git-Hub allows to go to Ghalia's progile for each one.
 
-## License:
+### License:
                  MIT License
 
 Copyright (c) [2021] [Ghalia Sami]
