@@ -3,19 +3,20 @@
 ## Description
 #### Ghalia's portfolio: 
 exploring this portfolio allows to navigate the following:
-*1-* Ghalia's photo.
-*2-*-Ghalia's bio.
-*3-* Ghalia's resume.
-*4-*Ghalia's works she's done.
-*5-*Ghalia's contact information.
+
+Ghalia's photo.
+Ghalia's bio.
+Ghalia's resume.
+Ghalia's works she's done.
+Ghalia's contact information.
 
 https://ghaliarose89.github.io/Ghalia-portfolio/
 
 
 ### usage:
-When hovering on the projects, images will brighning and become more bright
+When hovering on the projects, images will brightening and become more bright
 clicking on the Project name allows taking to the project page
-Reaching Ghalid out through eathier the header that takes to *Contact me* OR in the footer all Ghalia's information would be avilable.
+Reaching Ghalia out through either the header that takes to *Contact me* OR in the footer, all Ghalia's information would be available.
 
 
 ### Instulation:
