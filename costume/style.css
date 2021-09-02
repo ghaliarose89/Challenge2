@@ -11,7 +11,7 @@
     background-image: url("back-ground.jpg");
     background-size: cover;
     background-position:center;
-    font-family: Helvetica, Arial, sans-serif;
+    
   }
 
   
@@ -280,8 +280,8 @@ footer h4 {
     width: 400px;
     background-color:rgb(194, 150, 89);
     font-size: 20px;
-    color: rgb(58 1 82);
-    margin-top: auto;
+    color: rgb(58, 1, 82);
+   
    text-align: center;
 }
 .contact-1:hover{
@@ -293,9 +293,9 @@ footer h4 {
     margin-left: 50px;
 }
 
-.contact-me a{
+.contact-1 a{
     text-decoration: none;
-    text-align: center;
+    color:rgb(58, 1, 82);
 }
 
 @media screen and (max-width: 980px) {
