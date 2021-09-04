@@ -10,7 +10,7 @@
   body{
     margin: 0;
     padding: 0;
-    background-image: url("back-ground.jpg");
+    background-image: url("../Pictures/back-ground.jpg");
     background-size: cover;
     background-position:center;
     
@@ -172,7 +172,7 @@ li {
     height: 300px;
     border-radius: 14px;
     border: 4px solid var(--main-color);
-     background-image: url("flipped-hero-image.jpg");opacity:0.6;
+     background-image: url("../Pictures/flipped-hero-image.jpg") ;opacity:0.6;
      background-size: cover;
      background-position:center;
      margin: 20px;
@@ -203,26 +203,26 @@ li {
   
 
   .calculater{
-    background-image: url("0_PWlqExs7Q9Rg6GV_.jfif"); 
+    background-image: url("../Pictures/0_PWlqExs7Q9Rg6GV_.jfif"); 
 
 
   }
   
 
   .led-wall{
-    background-image: url("preview-2691OiCa8SKpJ0_0011.jpg"); 
+    background-image: url("../Pictures/preview-2691OiCa8SKpJ0_0011.jpg"); 
 
   }
  
 
   .surf-rep{
-    background-image: url("Surfline-Homepage-1024x512.jpg"); 
+    background-image: url("../Pictures/Surfline-Homepage-1024x512.jpg"); 
     
   }
   
 
   .web-devel {
-      background-image: url("top11.png");
+      background-image: url("../Pictures/top11.png");
   }
   
   .projs{
