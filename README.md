@@ -1,6 +1,7 @@
 # Ghalia Sami
 
-## Purpose
+## Purpose Ghalia's portfolio
+
 #### Ghalia's portfolio: 
 exploring this portfolio allows to navigate the following:
 
