@@ -1,12 +1,16 @@
+
+/*Declaring main-color variable*/
 :root {
     --main-color:rgb(194, 150, 89); 
   }
+
 * {
     margin: 2px;
     padding: 0;
     box-sizing: border-box;
     
   }
+/*Main style-whole page*/
   body{
     margin: 0;
     padding: 0;
@@ -28,7 +32,7 @@ header{
     z-index: 9999;
    
 }
-
+/* Webpage title */
 header h1 a{
     color:var(--main-color); 
     text-shadow: 3px 3px 4px red; 
@@ -43,7 +47,7 @@ h1 a{
     text-decoration: none;
 }
 
-
+/* navigation*/
 header nav ul{
     display: flex;
     justify-content:space-between;
@@ -54,7 +58,7 @@ header nav ul{
     list-style: none;
 }
 
-
+/* navigation titles*/
 header ul li a {
    margin: 15px;;
    padding: 10px 15px;
@@ -85,7 +89,7 @@ li {
   }
 
 
-
+/* bio and photo section*/
 .bio {
     display: flex;    
     flex-wrap: wrap;
@@ -130,7 +134,7 @@ li {
   
 
 }
-
+/*bio section*/
 .about-me{
     
     width:50%;
@@ -142,7 +146,7 @@ li {
     
 }
 
-
+/*Work section*/
 .achievements {
     display: flex;
     flex-wrap: wrap;
@@ -160,12 +164,14 @@ li {
     margin-top: 7%;
 
 }
+/*prijects I made*/
 .achievements-title h3{
    
     margin-left: 25px;
     text-decoration: underline;
 }
 
+/*Run-buddy project*/
 .proj-1{
     
     width:60%;
@@ -188,7 +194,7 @@ li {
         opacity: 100;
     }
 
-
+/*prijects subtitles*/
  .achievements a{
     margin-top: auto;
     width: 40%;
@@ -224,6 +230,8 @@ li {
   .web-devel {
       background-image: url("../Pictures/top11.png");
   }
+
+  /*rest projects style*/
   
   .projs{
     
@@ -247,7 +255,7 @@ li {
     opacity: 100;
 }
 
-
+/*break line*/
 hr {
     margin-top: 3%;
     margin-left: 10%;
@@ -255,7 +263,7 @@ hr {
   }
   
 
-
+/*prijects title*/
 footer h4 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 40px;
@@ -265,8 +273,6 @@ footer h4 {
     text-shadow: 1px 1px 1px red; 
     
 }
-
-
 
 
 .contact-me
@@ -286,11 +292,12 @@ footer h4 {
    
    text-align: center;
 }
+
 .contact-1:hover{
     background-color: rgb(228, 143, 33);
   
 }
-
+/*styling contact me links*/
 .contact-sizing{
     margin-left: 50px;
 }
@@ -299,6 +306,8 @@ footer h4 {
     text-decoration: none;
     color:rgb(58, 1, 82);
 }
+
+/*Responsive style*/
 
 @media screen and (max-width: 980px) {
 
@@ -504,7 +513,7 @@ footer h4 {
 
     margin-top:15%;
     }
- }
+}
 
 
 

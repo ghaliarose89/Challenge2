@@ -1,8 +1,8 @@
 # Ghalia Sami
 
-## Purpose Ghalia's portfolio
+## Purpose: Ghalia's portfolio
 
-#### Ghalia's portfolio: 
+#### Description: 
 exploring this portfolio allows to navigate the following:
 
 * Ghalia's photo.
