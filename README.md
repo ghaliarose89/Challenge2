@@ -2,7 +2,7 @@
 
 ## Purpose: Ghalia's portfolio
 
-#### Description: 
+### Description: 
 exploring this portfolio allows to navigate the following:
 
 * Ghalia's photo.
