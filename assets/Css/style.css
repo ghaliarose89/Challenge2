@@ -192,6 +192,7 @@ li {
 
 .proj-1:hover{
         opacity: 100;
+        cursor: pointer;
     }
 
 /*prijects subtitles*/
@@ -518,3 +519,4 @@ footer h4 {
 
 
 
+ }}
